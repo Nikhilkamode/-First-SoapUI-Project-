@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Web-Service: DataFlex 19.1
+Date: Tue, 28 May 2024 11:35:49 GMT
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>New Delhi</m:CapitalCityResult>
